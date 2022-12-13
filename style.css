@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* border: 10px solid rgb(28, 170, 0); */
+    background-color: black;
+    font-family: monospace;
+    color: lawngreen;
+}
+
+.container{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 30px 10px lawngreen;
+    margin: 20px;
+    border-radius: 20px;
+}  
+.per-info{
+    display: flex;
+    justify-content: space-around;
+}
+.per-info #name{
+    font-size: 40px;
+}
+
+.per-info #content{
+    font-size: 20px;
+}
+
+table{
+    padding: 50px;
+}
+img{
+    margin: 20px;
+    margin-left: 700px;
+    height: 150px;
+    /* border: 5px solid lawngreen; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px lawngreen;
+}
+.per-des{
+    margin: 10px;
+    margin-bottom: 30px;
+    border: 1px solid lawngreen;
+    border-radius: 20px;
+}
+
+.per-des p{
+    font-size: 20px;
+}
+
+p{
+    padding-left: 50px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list h3{
+    text-decoration: solid;
+}
+
+.per-form{
+    margin: 10px;
+    margin-bottom: 30px;
+    border: 1px solid lawngreen;
+    border-radius: 20px;
+    font-size: 20px;
+    /* text-align: center; */
+}
+
+.titlename p{
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-table{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+
+input{
+    background:black;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    border-radius: 6px;
+}
+
+textarea{
+    background:black;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    border-radius: 6px;
+}
+
+.titlename p {
+    text-align: center;
+}
+
+table td{
+    padding-left: 20px;
+}
+
+
+.save{
+    background-color: lawngreen;
+    font-size: 20px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+}
+
+.save:hover{
+    background-color:aquamarine ;
+}
+
+.clear{
+    background-color: red;
+    font-size: 20px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+}
+
+.clear:hover{
+    background-color: aquamarine;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    body {
+      background-color: black;
+    }
+    .per-info{
+        display: block;
+        text-align: center;
+    }
+    img{
+        margin: 20px;
+    };
+
+    .titlename p {
+        font-size: 20px;
+    }
+
+    .contact-table{
+        font-size: 15px;
+    }
+
+    .per-form{
+        text-align: center;
+    }
+
+    table td{
+        padding-left: 0px;
+    }
+
+    .list{
+        padding-left: 50px;
+        display: block;
+    }
+    
+  }
